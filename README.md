@@ -21,3 +21,7 @@ The code reproduces the main figures and tests discussed in the thesis.
 
 ## Repository Structure
 
+- **codes/** → MATLAB scripts for simulations  
+- **thesis/** → Original thesis text (Italian, PDF)  
+- **data/** → Output data and plots  
+- **README.md** → Project description  
