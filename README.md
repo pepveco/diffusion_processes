@@ -21,6 +21,7 @@ The code reproduces the main figures and tests discussed in the thesis.
 
 ## Repository Structure
 
+```
 diffusion_processes/
 ├── codes/              # cartella con i codici MATLAB
 │   ├── wiener_1D.m
@@ -32,4 +33,4 @@ diffusion_processes/
 ├── data/               # cartella con dati e grafici
 ├── README.md           # file di descrizione
 └── LICENSE             # licenza
- 
+```
