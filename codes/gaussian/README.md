@@ -58,25 +58,3 @@ The codes are educational and illustrate the connection between **Einstein’s d
   Verifies Pearson’s theorem: the sum of squared independent Gaussian variables follows a chi-squared distribution.  
   Connects Brownian step increments with \(\chi^2\) statistics.
 
----
-
-### Documentation
-- **`README.md`**  
-  This file.
-
----
-
-## Physics Background
-
-See details in the full thesis.
-
----
-
-## 🚀 How to Run
-
-To execute a script:
-
-1. Open **MATLAB**.  
-2. Navigate to this folder:
-   ```matlab
-   cd path/to/this/folder
