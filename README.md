@@ -21,7 +21,15 @@ The code reproduces the main figures and tests discussed in the thesis.
 
 ## Repository Structure
 
-- **codes/** → MATLAB scripts for simulations  
-- **thesis/** → Original thesis text (Italian, PDF)  
-- **data/** → Output data and plots  
-- **README.md** → Project description  
+diffusion_processes/
+├── codes/              # cartella con i codici MATLAB
+│   ├── wiener_1D.m
+│   ├── brownian_2D.m
+│   ├── levy_walk.m
+│   └── qgaussian_walk.m
+├── thesis/             # cartella con la tesi in PDF
+│   └── diffusion_thesis.pdf
+├── data/               # cartella con dati e grafici
+├── README.md           # file di descrizione
+└── LICENSE             # licenza
+ 
