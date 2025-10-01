@@ -23,14 +23,13 @@ The code reproduces the main figures and tests discussed in the thesis.
 
 ```
 diffusion_processes/
-├── codes/              # cartella con i codici MATLAB
+├── codes/              # MATLAB code folders
 │   ├── wiener_1D.m
 │   ├── brownian_2D.m
 │   ├── levy_walk.m
 │   └── qgaussian_walk.m
-├── thesis/             # cartella con la tesi in PDF
+├── thesis/            
 │   └── diffusion_thesis.pdf
-├── data/               # cartella con dati e grafici
 ├── README.md           # file di descrizione
 └── LICENSE             # licenza
 ```
