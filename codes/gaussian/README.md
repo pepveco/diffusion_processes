@@ -66,19 +66,9 @@ The codes are educational and illustrate the connection between **Einstein’s d
 
 ---
 
-## 📖 Physics Background
+## Physics Background
 
-- **Einstein’s diffusion law (1905):**  
-  $\langle r^2(t) \rangle = 2 d D t,$ 
-  with \(d\) = number of dimensions, \(D\) = diffusion coefficient.
-
-- **Langevin’s stochastic dynamics (1908):**  
-  Brownian motion modeled as  
-  $\frac{dx}{dt} = \eta(t), \quad \langle \eta(t)\eta(t')\rangle = 2D\delta(t-t').$
-  Integration yields Gaussian-distributed positions with variance \(\sim t\).
-
-- **Connection:**  
-  Both approaches lead to Gaussian displacement distributions and the same scaling of variance, proving their equivalence.
+See details in the full thesis.
 
 ---
 
