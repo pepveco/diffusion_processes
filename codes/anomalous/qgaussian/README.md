@@ -31,9 +31,11 @@ The **q-Gaussian distribution** is defined as the maximizer of **Tsallis entropy
 - For $q < 1$ it has **compact support**.  
 - For $1 < q < 3$ it exhibits **heavy tails** (for example, $q = 2$ corresponds to the Cauchy distribution).  
 
-The generalized Box–Müller method replaces the natural logarithm in the standard Box–Müller transform with the **q-logarithm**:  
+The generalized Box–Müller method replaces the natural logarithm in the standard Box–Müller transform with the **q-logarithm**: 
 
-$\ln_q(x) = \frac{x^{1-q} - 1}{1-q}, \quad \ln_1(x) = \ln(x)$  
+$ln_q(x) = (x^(1-q) - 1) / (1 - q)$,   
+
+with   $ln_{q=1}(x) = ln(x)$.
 
 This produces random deviates distributed according to a $q$Gaussian with parameter $q_1$.
 
