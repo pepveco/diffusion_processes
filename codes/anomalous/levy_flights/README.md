@@ -24,7 +24,7 @@ The codes illustrate the anomalous nature of Lévy processes compared to Gaussia
 ---
 
 ### 3. 2D Lévy Flights
-- **`1D_LEVY_randomwalk_fixing_alpha.m`**  
+- **`1D_Levy_randomwalk_fixing_alpha.m`**  
   Generates a $2D$ Lévy flight trajectory $(X(t), Y(t))$ for $\alpha = 1$.2.  
   - Independent $\alpha$-stable increments in x and y.  
   - For $\alpha = 2$ this reduces to $2D$ Brownian motion.  
