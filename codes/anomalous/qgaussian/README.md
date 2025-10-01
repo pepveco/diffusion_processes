@@ -33,7 +33,7 @@ The **q-Gaussian distribution** is defined as the maximizer of **Tsallis entropy
 
 The generalized Box–Müller method replaces the natural logarithm in the standard Box–Müller transform with the **q-logarithm**: 
 
-$ln_q(x) = (x^(1-q) - 1) / (1 - q)$,   
+$ln_q(x) = (x^{1-q} - 1) / (1 - q)$,   
 
 with   $ln_{q=1}(x) = ln(x)$.
 
