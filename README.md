@@ -21,15 +21,13 @@ The code reproduces the main figures and tests discussed in the thesis.
 
 ## Repository Structure
 
-```
-diffusion_processes/
-├── codes/              # MATLAB code folders
-│   ├── wiener_1D.m
-│   ├── brownian_2D.m
-│   ├── levy_walk.m
-│   └── qgaussian_walk.m
-├── thesis/            
-│   └── diffusion_thesis.pdf
-├── README.md           # file di descrizione
-└── LICENSE             # licenza
-```
+    diffusion_processes/
+    ├── codes/                  # MATLAB code folders
+    │   ├── anomalous           # anomalous diffusion
+    │   │   ├── levy_flights/   # Lévy flights simulations
+    │   │   └── qgaussian/      # q-Gaussian diffusion simulations
+    │   └── gaussian/           # standard Brownian motion
+    ├── docs/                   # thesis and supporting material
+    │   └── tesi_triennale_conte.pdf
+    ├── README.md               # general description
+    └── LICENSE                 # license
