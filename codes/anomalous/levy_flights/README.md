@@ -1,6 +1,6 @@
 # Lévy Flights (MATLAB)
 
-This folder contains MATLAB scripts to simulate **Lévy flights** in $ 1D$ and $2D$, analyze heavy-tailed $ \alpha$-stable distributions, and compare variance growth for different stability indices $ \alpha$.  
+This folder contains MATLAB scripts to simulate **Lévy flights** in $1D$ and $2D$, analyze heavy-tailed $ \alpha$-stable distributions, and compare variance growth for different stability indices $ \alpha$.  
 The codes illustrate the anomalous nature of Lévy processes compared to Gaussian (Brownian) diffusion.
 
 ---
