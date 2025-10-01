@@ -1,6 +1,6 @@
 # q-Gaussian Diffusion (MATLAB)
 
-This directory contains MATLAB scripts to generate **q-Gaussian random deviates**, plot their **probability density functions (PDFs)**, and build **random-walk trajectories** with $q$Gaussian increments.  
+This directory contains MATLAB scripts to generate **q-Gaussian random deviates**, plot their **probability density functions (PDFs)**, and build **random-walk trajectories** with $q$-Gaussian increments.  
 The generator follows the **generalized Box–Müller method** (Thistleton–Nelson–Marsh–Tsallis).
 
 ---
@@ -8,15 +8,15 @@ The generator follows the **generalized Box–Müller method** (Thistleton–Nel
 ## Contents
 
 - **`qGaussianDist.m`**  
-  Function to generate random numbers distributed according to a $q$Gaussian law.  
+  Function to generate random numbers distributed according to a $q$-Gaussian law.  
   - Input: number of samples $n_{\text{samples}}$ and parameter $q_1$.  
-  - Output: a vector of $q$Gaussian deviates.
+  - Output: a vector of $q$-Gaussian deviates.
 
 - **`plot_q_gauss.m`**  
   Plots the **theoretical q-Gaussian PDF** for a chosen $q_1$ and compares it with the **empirical histogram** of simulated data.
 
 - **`hist_vs_plot-qgauss.m`**  
-  Shows the histogram of simulated $q$Gaussian data against the **analytical PDF**, to check consistency between simulation and theory.
+  Shows the histogram of simulated $q$-Gaussian data against the **analytical PDF**, to check consistency between simulation and theory.
 
 - **`qgauss_paths.m`**  
   Builds **random-walk trajectories** with increments distributed as $q$-Gaussians and compares them with standard Gaussian random walks.  
@@ -37,8 +37,8 @@ $ln_q(x) = (x^{1-q} - 1) / (1 - q)$,
 
 with   $ln_{q=1}(x) = ln(x)$.
 
-This produces random deviates distributed according to a $q$Gaussian with parameter $q_1$.
+This produces random deviates distributed according to a $q$-Gaussian with parameter $q_1$.
 
 Reference:  
 W. Thistleton, K. Nelson, J. A. Marsh, C. Tsallis,  
-*Generalized Box-Muller method for generating $q$Gaussian random deviates*, arXiv:cond-mat/0605570.
+*Generalized Box-Muller method for generating $q$-Gaussian random deviates*, arXiv:cond-mat/0605570.
