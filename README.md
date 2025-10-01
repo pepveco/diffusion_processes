@@ -3,7 +3,7 @@
 This repository contains MATLAB code developed for my BSc thesis **“Teoria e simulazione di processi di diffusione”** (Theory and Simulation of Diffusion Processes), Department of Physics, University of Pavia (A.Y. 2021–2022).
 
 > **Language note:** the thesis document included here is in **Italian**.  
-> See `docs/tesi_triennale_diffusione.pdf`.
+> See `docs/tesi_triennale_conte.pdf`.
 
 ---
 
@@ -31,3 +31,9 @@ The code reproduces the main figures and tests discussed in the thesis.
     │   └── tesi_triennale_conte.pdf
     ├── README.md               # general description
     └── LICENSE                 # license
+
+---
+
+## Acknowledgments
+
+I would like to thank **Prof. Guido Montagna** and **Dott.ssa Federica De Domanico** for their guidance and supervision during my bachelor thesis work.
