@@ -32,10 +32,10 @@ The codes illustrate the anomalous nature of Lévy processes compared to Gaussia
 ---
 
 ### 4. Variance Growth
-- **`divergence_$ \sigma$_vs_time_ANOMALOUS.m`**  
+- **`divergence_sigma_vs_time_ANOMALOUS.m`**  
   Computes the empirical standard deviation over time for Lévy flights with different $\alpha$.  
   - $\alpha = 2$ (Gaussian): $\sigma ∼\sqrt t$.  
-  - $\alpha  < 2$: variance is infinite, so the empirical $ \sigma$ diverges and fluctuates.  
+  - $\alpha  < 2$: variance is infinite, so the empirical $\sigma$ diverges and fluctuates.  
   - Log–log scale highlights anomalous vs Gaussian scaling.  
 
 ---
