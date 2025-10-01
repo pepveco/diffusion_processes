@@ -16,15 +16,15 @@ The codes illustrate the anomalous nature of Lévy processes compared to Gaussia
 
 ---
 
-### 2. $1D$ Lévy Flights
-- **`Levy_randomwalks_$ 1D$_alvariaredi_alpha.m`**  
+### 2. 1D Lévy Flights
+- **`1D_Levy_randomwalks_fixed_alpha.m`**  
   Simulates $1D$ Lévy flights for $\alpha = 2$ (Gaussian), $\alpha = 1$ (Cauchy), and intermediate heavy-tailed $\alpha$ values.  
   - Trajectories display rare, large displacements when $\alpha  < 2$.  
 
 ---
 
-### 3. $2D$ Lévy Flights
-- **`$2D$_LEVY_randomwalk_fixing_alpham.m`**  
+### 3. 2D Lévy Flights
+- **`1D_LEVY_randomwalk_fixing_alpha.m`**  
   Generates a $2D$ Lévy flight trajectory $(X(t), Y(t))$ for $\alpha = 1$.2.  
   - Independent $\alpha$-stable increments in x and y.  
   - For $\alpha = 2$ this reduces to $2D$ Brownian motion.  
