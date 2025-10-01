@@ -40,27 +40,6 @@ The codes illustrate the anomalous nature of Lévy processes compared to Gaussia
 
 ---
 
-## 📖 Physics Background
-
-- **Stable distributions:**  
-  Defined by (α, β, c, μ). Here β=0 (symmetric), μ=0, c=1.  
-  - α=2 → Gaussian  
-  - α=1 → Cauchy  
-  - α<2 → heavy-tailed Lévy stable law (infinite variance)  
-
-- **Lévy flights:**  
-  Constructed as  
-  \[
-  X_n = \sum_{i=1}^n \xi_i, \quad \xi_i \sim S_\alpha(0,1,0).
-  \]  
-  They produce jumps of arbitrary size in a single step → **infinite velocity**.  
-
-- **Scaling:**  
-  For α=2 → diffusive, σ(t) ~ √t.  
-  For α<2 → anomalous diffusion: MSD diverges, scaling described by quantiles or distribution tails.
-
----
-
 ## Notes
 
 - These scripts implement **Lévy flights** (instantaneous α-stable jumps).  
