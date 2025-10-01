@@ -20,7 +20,7 @@ The generator follows the **generalized Box–Müller method** (Thistleton–Nel
 
 - **`qgauss_paths.m`**  
   Builds **random-walk trajectories** with increments distributed as $q$-Gaussians and compares them with standard Gaussian random walks.  
-  Both 1D cumulative paths and 2D trajectories can be visualized.
+  Both $1D$ cumulative paths and $2D$ trajectories can be visualized.
 
 ---
 
